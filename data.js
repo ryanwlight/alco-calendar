@@ -19,5 +19,5 @@ cal.paint({
     x: 'date',
     y: 'value',
   },
-  scale: { color: { type: 'linear', scheme: 'PRGn', domain: [0, 40] } },
+  scale: { color: { type: 'linear', scheme: 'Cool'} },
 });
