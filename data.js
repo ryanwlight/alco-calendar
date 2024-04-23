@@ -11,12 +11,13 @@ cal.paint({
     radius: 2,
   },
   date: {
-    start: '2024-01-01',
+    start: '2019-01-01',
   },
   data: {
-    source: './data.json',
+    source: './data2024.json',
     type: 'json',
     x: 'date',
+    y: 'value',
   },
   scale: { color: { type: 'linear', range: ["red, green"], } },
 });
