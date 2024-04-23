@@ -2,7 +2,6 @@ const dayYears = DateHelper => ({
   name: 'xYear',
   parent: 'day',
   rowsCount: () => 12,
-  columnsCount: () => 1,
 });
   
 const cal = new CalHeatmap();
