@@ -14,7 +14,7 @@ cal.paint({
     start: '2019-01-01',
   },
   data: {
-    source: './data2024.json',
+    source: './data.json',
     type: 'json',
     x: 'date',
     y: 'value',
