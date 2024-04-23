@@ -2,6 +2,7 @@ const cal = new CalHeatmap();
 
 cal.paint({
   itemSelector: "#ex-year",
+  range: 48,
   domain: {
     type: "month",
     gutter: 10,
