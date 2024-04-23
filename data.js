@@ -40,7 +40,7 @@ cal.addTemplates(weekDaysTemplate);
 
 cal.paint({
   itemSelector: "#ex-year",
-  range: 48,
+  range: 8,
   domain: {
     type: "year",
     gutter: 10,
