@@ -1,27 +1,19 @@
-const dayYears = DateHelper => ({
-  name: 'xYear',
-  parent: 'day',
-  rowsCount: () => 12,
-});
   
 const cal = new CalHeatmap();
-cal.addTemplates(dayYears);
 
 cal.paint({
   itemSelector: "#ex-year",
-  range: 120,
+  range: 12,
   domain: {
     type: "month",
     gutter: 10,
   },
   subDomain: {
-    type: "xYear",
+    type: "day",
     radius: 2,
   },
   date: {
     start: '2019-01-01',
-    min: '2019-01-01',
-    max: '2030-12-31',
   },
   data: {
     source: './data.json',
