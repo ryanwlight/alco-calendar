@@ -11,12 +11,12 @@ cal.paint({
     radius: 2,
   },
   date: {
-    start: '2024-01-01',
+    start: '2015-01-01',
   },
   data: {
     source: 'https://raw.githubusercontent.com/wa0x6e/cal-heatmap/gh-pages/fixtures/seattle-weather.csv',
     requestInit: {
-      mode: 'no-cors',
+      mode: 'cors',
     },
     type: 'csv',
     x: 'date',
