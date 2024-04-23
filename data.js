@@ -1,6 +1,6 @@
 const weekDaysTemplate = DateHelper => ({
   name: 'weekday',
-  parent: 'month',
+  parent: 'day',
   rowsCount: () => 5,
   columnsCount: () => 54,
   mapping: (startTimestamp, endTimestamp) => {
@@ -42,7 +42,7 @@ cal.paint({
   itemSelector: "#ex-year",
   range: 8,
   domain: {
-    type: "year",
+    type: "month",
     gutter: 10,
   },
   subDomain: {
