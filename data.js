@@ -17,7 +17,6 @@ cal.paint({
     source: './data.json',
     type: 'json',
     x: 'date',
-    y: 'value',
   },
   scale: { color: { type: 'linear', range: ["red, green"], } },
 });
