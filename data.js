@@ -1,6 +1,6 @@
 const weekDaysTemplate = DateHelper => ({
   name: 'weekday',
-  parent: 'day',
+  parent: 'month',
   rowsCount: () => 5,
   columnsCount: () => 54,
   mapping: (startTimestamp, endTimestamp) => {
