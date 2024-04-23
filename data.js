@@ -14,14 +14,10 @@ cal.paint({
     start: '2015-01-01',
   },
   data: {
-    source: 'https://raw.githubusercontent.com/wa0x6e/cal-heatmap/gh-pages/fixtures/seattle-weather.csv',
-    requestInit: {
-      mode: 'cors',
-    },
-    type: 'csv',
+    source: './data.json',
+    type: 'json',
     x: 'date',
-    y: d => +d['temp_max'],
-    groupY: 'max',
+    y: 'value',
   },
   scale: { color: { type: 'linear', scheme: 'PRGn', domain: [0, 40] } },
 });
