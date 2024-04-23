@@ -1,5 +1,12 @@
-
+const dayYears = DateHelper => ({
+  name: 'xYear',
+  parent: 'day',
+  rowsCount: () => 12,
+  columnsCount: () => 1,
+});
+  
 const cal = new CalHeatmap();
+cal.addTemplates(dayYears);
 
 cal.paint({
   itemSelector: "#ex-year",
@@ -9,7 +16,7 @@ cal.paint({
     gutter: 10,
   },
   subDomain: {
-    type: "day",
+    type: "xYear",
     radius: 2,
   },
   date: {
