@@ -1,13 +1,5 @@
-const weekDaysTemplate = DateHelper => ({
-  name: 'weekday',
-  parent: 'day',
-  rowsCount: () => 10,
-  columnsCount: () => 54,
-});
-
 
 const cal = new CalHeatmap();
-cal.addTemplates(weekDaysTemplate);
 
 cal.paint({
   itemSelector: "#ex-year",
@@ -21,6 +13,8 @@ cal.paint({
   },
   date: {
     start: '2019-01-01',
+    min: '2019-01-01',
+    max: '2030-12-31',
   },
   data: {
     source: './data.json',
