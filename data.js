@@ -16,7 +16,7 @@ cal.paint({
     gutter: 10,
   },
   subDomain: {
-    type: "weekday",
+    type: "day",
     radius: 2,
   },
   date: {
