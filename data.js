@@ -19,5 +19,5 @@ cal.paint({
     x: 'date',
     y: 'value',
   },
-  scale: { color: { type: 'linear', scheme: 'Cool'} },
+  scale: { color: { type: 'linear', range: ["red, green"], } },
 });
