@@ -11,7 +11,6 @@ cal.addTemplates(weekDaysTemplate);
 
 cal.paint({
   itemSelector: "#ex-year",
-  range: 8,
   domain: {
     type: "month",
     gutter: 10,
